@@ -6,3 +6,35 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-logo {
+    height: 50px;
+}
+
+
+.hero{
+    text-align: center;
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
